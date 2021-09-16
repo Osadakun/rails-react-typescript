@@ -1,0 +1,24 @@
+version: "3"
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: demo-db
+    ports:
+      - "3302:3302"
+    volumes:
+      - demo-db:/var/lib/mysql
+
+  web:
+    build: .
+    command: rails s -p 3002 -b '0.0.0.0'
+    volumes:
+      - .:/rails-app
+    ports:
+      - "3002:3002"
+    links:
+      - db
+
+volumes:
+  demo-db:
