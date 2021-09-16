@@ -4,15 +4,17 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: demo-db
+      MYSQL_DATABASE: rails-front-demo-db
     ports:
       - "3302:3302"
     volumes:
-      - demo-db:/var/lib/mysql
+      - rails-db:/var/lib/mysql
 
-  web:
+  web: &web
     build: .
     command: rails s -p 3002 -b '0.0.0.0'
+    environment:
+      WEBPACKER_DEV_SERVER_HOST: webpacker
     volumes:
       - .:/rails-app
     ports:
@@ -20,5 +22,14 @@ services:
     links:
       - db
 
+  webpacker:
+    <<: *web
+    command: bundle exec bin/webpack-dev-server
+    depends_on: []
+    environment:
+      WEBPACKER_DEV_SERVER_HMR: "true"
+      WEBPACKER_DEV_SERVER_HOST: 0.0.0.0
+    ports:
+      - "3035:3035"
 volumes:
-  demo-db:
+  rails-db:
