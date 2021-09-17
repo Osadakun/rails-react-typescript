@@ -32,11 +32,6 @@ const MyAvatar: React.FC = () => {
             Toshiki Ono
           </Typography>
         </Box>
-        <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='body1'>
-            Web Enginner
-          </Typography>
-        </Box>
       </Box>
     </>
   );
