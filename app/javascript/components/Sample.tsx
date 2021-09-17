@@ -1,6 +1,6 @@
 import React from "react";
 const Sample: React.FC = () => {
-  return <>this is typescript sample.</>;
+  return <>ホームページを作成していくよ</>;
 };
 
 export default Sample;
