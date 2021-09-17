@@ -1,6 +1,14 @@
-import React from "react";
+import React from 'react'
+import MyAvatar from './MyAvatar';
+import Navbar from './Navbar'
+
 const Sample: React.FC = () => {
-  return <>ホームページを作成していくよ</>;
-};
+  return (
+    <div>
+      <Navbar />
+      <MyAvatar />
+    </div>
+  );
+}
 
 export default Sample;
