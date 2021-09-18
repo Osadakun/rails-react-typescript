@@ -52,7 +52,7 @@ const About: React.FC = () => {
                 Skills
               </Typography>
               <Typography color="textSecondary">
-                Python / React / Ruby / TypeScript / Docker / C* / Java* / JavaScript* / Go* / MySQL / PostgreSQL / (*は授業程度)
+                Python / React / Ruby / TypeScript / Docker / C* / Java* / JavaScript* / Go* / MySQL / PostgreSQL  (*は授業程度)
               </Typography>
             </CardContent>
           </Card>
