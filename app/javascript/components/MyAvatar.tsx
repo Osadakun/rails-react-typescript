@@ -18,7 +18,7 @@ const MyAvatar: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <>
+    <div>
       <Box p={2}>
         <Box display='flex' justifyContent='center' p={1} >
           <Avatar
@@ -28,12 +28,12 @@ const MyAvatar: React.FC = () => {
           />
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
-            Toshiki Ono
+          <Typography variant='h4' >
+            小野 紀輝(Ono Toshiki)
           </Typography>
         </Box>
       </Box>
-    </>
+    </div>
   );
 }
 

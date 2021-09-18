@@ -12,14 +12,8 @@ const Sample: React.FC = () => {
         style={{ alignItems: 'center'}}
       >
         <Toolbar>
-          <Button>
-            ABOUT
-          </Button>
           <Button color='inherit'>
-            SKILLS
-          </Button>
-          <Button color='inherit'>
-            Works
+            INFORMATIONS
           </Button>
           <Button color='inherit'>
             CONTACT

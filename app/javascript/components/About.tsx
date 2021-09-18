@@ -19,18 +19,16 @@ const About: React.FC = () => {
     <>
       <Box p={2}>
         <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
-            Skills
-          </Typography>
+            Informations
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <Card className={classes.root}>
             <CardContent>
               <Typography variant="h6">
-                言語
+                About
               </Typography>
               <Typography color="textSecondary">
-                Ruby / PHP / JavaScript / TypeScript
+                学部3年 / バドミントンコーチ / 石川県
               </Typography>
             </CardContent>
           </Card>
@@ -39,10 +37,10 @@ const About: React.FC = () => {
           <Card className={classes.root}>
             <CardContent>
               <Typography variant="h6">
-                フレームワーク
+                Hobby
               </Typography>
               <Typography color="textSecondary">
-                Ruby on Rails / Sinatra / Laravel / React
+                スニーカー収集 / バドミントン / ドライブ
               </Typography>
             </CardContent>
           </Card>
@@ -51,10 +49,10 @@ const About: React.FC = () => {
           <Card className={classes.root}>
             <CardContent>
               <Typography variant="h6">
-                データベース
+                Skills
               </Typography>
               <Typography color="textSecondary">
-                MySQL / PostgreSQL
+                Python / React / Ruby / TypeScript / Docker / C* / Java* / JavaScript* / Go* / MySQL / PostgreSQL / (*は授業程度)
               </Typography>
             </CardContent>
           </Card>
@@ -63,10 +61,22 @@ const About: React.FC = () => {
           <Card className={classes.root}>
             <CardContent>
               <Typography variant="h6">
-                AWS
+                Intereat
               </Typography>
               <Typography color="textSecondary">
-                EC2 / ECS / ECR / Lambda / SQS / SNS / Elastic Beanstalk / S3 / Cloud9 / CloudWatch / CloudFormation / RDS / Route53
+                Heroku / LineBot / Arduino / RaspberryPI / AOJ / 自動化・可視化 / 組み込み
+              </Typography>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box display='flex' justifyContent='center' p={1} >
+          <Card className={classes.root}>
+            <CardContent>
+              <Typography variant="h6">
+                Qualifications
+              </Typography>
+              <Typography color="textSecondary">
+                基本情報技術者(FE)
               </Typography>
             </CardContent>
           </Card>

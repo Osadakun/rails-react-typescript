@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/stylesheets/footer.scss";
+import "../../assets/stylesheets/contact.scss";
 import InstagramIcon from "@material-ui/icons/Instagram"
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -8,7 +8,7 @@ import LibraryBooksOutlinedIcon from "@material-ui/icons/LibraryBooksOutlined";
 function Footer() {
   return (
     <div className="footer">
-        © 2021 Toshiki Ono
+      <p className="footItem">© 2021 Toshiki Ono</p>
       <GitHubIcon
         className="icon footItem"
         onClick={() => window.open("https://github.com/Osadakun", "_blank")}
