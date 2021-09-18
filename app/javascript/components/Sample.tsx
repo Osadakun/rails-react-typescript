@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../assets/stylesheets/sample.scss";
 import About from './About'
 import Contact from './Contact'
 import MyAvatar from './MyAvatar';
@@ -11,6 +12,19 @@ const Sample: React.FC = () => {
         <Navbar />
         <p className="greet">Welcome to MyPage</p>
       </header>
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
       <MyAvatar />
       <About />
       <Contact />

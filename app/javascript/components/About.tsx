@@ -61,7 +61,7 @@ const About: React.FC = () => {
           <Card className={classes.root}>
             <CardContent>
               <Typography variant="h6">
-                Intereat
+                Interest
               </Typography>
               <Typography color="textSecondary">
                 Heroku / LineBot / Arduino / RaspberryPI / AOJ / 自動化・可視化 / 組み込み
