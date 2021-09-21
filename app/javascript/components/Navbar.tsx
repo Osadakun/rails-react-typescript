@@ -13,10 +13,10 @@ const Navbar: React.FC = () => {
         style={{ alignItems: 'center'}}
       >
         <Toolbar>
-        <AnchorLink href='#INFORMATIONS' style={{
+          <AnchorLink href='#INFORMATIONS' style={{
             textDecoration: 'none',
             color: 'inherit'
-          }}>
+            }}>
             <Button color='inherit'>
               Informations
             </Button>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           <AnchorLink href='#CONTACT' style={{
             textDecoration: 'none',
             color: 'inherit'
-          }}>
+            }}>
             <Button color='inherit'>
               Contact
             </Button>
