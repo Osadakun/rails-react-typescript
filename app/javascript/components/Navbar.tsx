@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
             textDecoration: 'none',
             color: 'inherit'
           }}>
-            <Button>
+            <Button color='inherit'>
               Informations
             </Button>
           </AnchorLink>
