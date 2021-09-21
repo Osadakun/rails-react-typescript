@@ -1,7 +1,7 @@
 declare module 'react-anchor-link-smooth-scroll' {
     interface Props {
       href: string;
-      offset?: number;
+      offset?:  number;
       onClick?: (e: Event) => void;
       [key: string]: any;
     }

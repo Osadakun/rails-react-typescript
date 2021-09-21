@@ -1,6 +1,5 @@
 import React from 'react'
 import "../../assets/stylesheets/sample.scss";
-import About from './Informations'
 import Contact from './Contact'
 import MyAvatar from './MyAvatar';
 import Navbar from './Navbar'
@@ -10,8 +9,10 @@ const Sample: React.FC = () => {
   return (
     <div>
       <header>
-        <Navbar />
         <p className="greet">Welcome to MyPage</p>
+        <section>
+          <Navbar />
+        </section>
       </header>
         <ul className="circles">
           <li></li>
@@ -26,7 +27,9 @@ const Sample: React.FC = () => {
           <li></li>
           <li></li>
       </ul>
-      <MyAvatar />
+      <section>
+        <MyAvatar />
+      </section>
       <section id='informations'>
         <Informations />
       </section>

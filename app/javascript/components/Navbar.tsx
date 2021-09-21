@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
 
-const Sample: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <>
       <AppBar
@@ -35,4 +35,4 @@ const Sample: React.FC = () => {
   );
 }
 
-export default Sample;
+export default Navbar;
