@@ -12,7 +12,7 @@ const useStyles = makeStyles({
   },
 });
 
-const About: React.FC = () => {
+const Informations: React.FC = () => {
   const classes = useStyles();
 
   return (
@@ -87,4 +87,4 @@ const About: React.FC = () => {
   );
 }
 
-export default About;
+export default Informations;

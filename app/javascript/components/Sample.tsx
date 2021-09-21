@@ -1,9 +1,10 @@
 import React from 'react'
 import "../../assets/stylesheets/sample.scss";
-import About from './About'
+import About from './Informations'
 import Contact from './Contact'
 import MyAvatar from './MyAvatar';
 import Navbar from './Navbar'
+import Informations from './Informations';
 
 const Sample: React.FC = () => {
   return (
@@ -26,8 +27,12 @@ const Sample: React.FC = () => {
           <li></li>
       </ul>
       <MyAvatar />
-      <About />
-      <Contact />
+      <section id='informations'>
+        <Informations />
+      </section>
+      <section id='contact'>
+        <Contact />
+      </section>
     </div>
   );
 }
