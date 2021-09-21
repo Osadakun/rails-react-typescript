@@ -7,7 +7,7 @@ import Informations from './Informations';
 
 const Sample: React.FC = () => {
   return (
-    <div>
+    <>
       <header>
         <p className="greet">Welcome to MyPage</p>
         <section>
@@ -36,7 +36,7 @@ const Sample: React.FC = () => {
       <section id='contact'>
         <Contact />
       </section>
-    </div>
+    </>
   );
 }
 

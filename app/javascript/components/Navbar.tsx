@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button'
 
 const Navbar: React.FC = () => {
   return (
-    <>
+    <div>
       <AppBar
         color='default'
         position='static'
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           </AnchorLink>
         </Toolbar>
       </AppBar>
-    </>
+    </div>
   );
 }
 
