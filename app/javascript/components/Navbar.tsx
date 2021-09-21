@@ -18,10 +18,10 @@ const Navbar: React.FC = () => {
             color: 'inherit'
           }}>
             <Button>
-              ABOUT
+              Informations
             </Button>
           </AnchorLink>
-          <AnchorLink href='#contact' style={{
+          <AnchorLink href='#CONTACT' style={{
             textDecoration: 'none',
             color: 'inherit'
           }}>

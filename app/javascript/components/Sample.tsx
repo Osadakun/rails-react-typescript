@@ -30,10 +30,10 @@ const Sample: React.FC = () => {
       <section>
         <MyAvatar />
       </section>
-      <section id='#informations'>
+      <section id='INFORMATIONS'>
         <Informations />
       </section>
-      <section id='#contact'>
+      <section id='CONTACT'>
         <Contact />
       </section>
     </>
