@@ -1,2 +1,2 @@
-module SampleHelper
+module HomeHelper
 end

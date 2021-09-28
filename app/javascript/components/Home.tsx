@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../assets/stylesheets/sample.scss";
+import "../../assets/stylesheets/home.scss";
 import Contact from './Contact'
 import MyAvatar from './MyAvatar';
 import Navbar from './Navbar'
