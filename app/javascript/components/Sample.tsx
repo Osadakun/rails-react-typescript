@@ -9,7 +9,7 @@ const Sample: React.FC = () => {
   return (
     <>
       <header>
-        <p className="greet">Welcome to MyPage</p>
+        <p className="greet">Welcome to Mypage</p>
         <section>
           <Navbar />
         </section>
