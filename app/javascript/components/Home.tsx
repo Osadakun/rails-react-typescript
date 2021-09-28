@@ -5,7 +5,7 @@ import MyAvatar from './MyAvatar';
 import Navbar from './Navbar'
 import Informations from './Informations';
 
-const Sample: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <>
       <header>
@@ -40,4 +40,4 @@ const Sample: React.FC = () => {
   );
 }
 
-export default Sample;
+export default Home;
