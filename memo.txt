@@ -2,7 +2,8 @@
 => Rails 6.1.4.1 application starting in development 
 => Run `bin/rails server --help` for more startup options
 Exiting
-/usr/local/bundle/gems/zeitwerk-2.4.2/lib/zeitwerk/loader.rb:558:in `rescue in block in set_autoloads_in_dir': wrong constant name @types inferred by Module from directory (Zeitwerk::NameError)
+/usr/local/bundle/gems/zeitwerk-2.4.2/lib/zeitwerk/loader.rb:558:in 
+`rescue in block in set_autoloads_in_dir': wrong constant name @types inferred by Module from directory (Zeitwerk::NameError)
 
   /rails-app/app/src/@types
 
