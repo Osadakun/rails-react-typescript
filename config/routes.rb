@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  root 'home#index'
-  get 'cat', to: "cat#index"
+  get 'home', to: "home#index"
 end
