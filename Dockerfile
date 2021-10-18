@@ -1,5 +1,9 @@
 FROM ruby:2.6.3
 # ベースイメージ 2.6.4じゃなくて2.6.3だよ
+
+ENV RAILS_ENV=production
+# 環境変数の設定
+
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
   && apt-get update \
   && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list

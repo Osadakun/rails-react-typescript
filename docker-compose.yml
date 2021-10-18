@@ -1,6 +1,6 @@
 version: "3"
 services:
-  db:
+  db: 
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: password
@@ -31,5 +31,12 @@ services:
       WEBPACKER_DEV_SERVER_HOST: 0.0.0.0
     ports:
       - "3035:3035"
-volumes:
-  rails-db:
+    volumes:
+      rails-db:
+
+  production:
+    <<: *default
+    database: <%= ENV['APP_DATABASE'] %>
+    username: <%= ENV['APP_DATABASE_USERNAME'] %>
+    password: <%= ENV['APP_DATABASE_PASSWORD'] %>
+    host: <%= ENV['APP_DATABASE_HOST'] %>
