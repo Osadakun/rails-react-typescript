@@ -58,6 +58,6 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
+  adapter: mysql
   encoding: unicode
   pool: 5
